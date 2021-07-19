@@ -39,12 +39,13 @@ mat-sidenav-container {
     justify-content: flex-start;
     font-size: 1rem;
 
-    
 }
 
 mat-icon {
     margin-right: 8px;
 }
+
+
 
 .avatar {
     margin-top: 16px;
@@ -54,6 +55,7 @@ mat-icon {
 }
 
 .name {
+    margin: 0;
     margin-top: 8px;
     font-weight: normal;
 }

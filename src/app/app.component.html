@@ -20,6 +20,7 @@
           
           <button mat-button class="menu-button">
             <mat-icon>dashboard</mat-icon>
+            <a routerLink="admin-dashboard" routerLinkActive="active"></a>
             <span>Dashboard</span>
           </button>
           <button mat-button class="menu-button">
@@ -30,6 +31,11 @@
             <mat-icon>library_add</mat-icon>
           <span>Manage Resume</span>
       </button>
+
+      <button mat-button class="menu-button">
+        <mat-icon>assignment_ind</mat-icon>
+        <span>Manage Users</span>
+    </button>
      
           <button mat-button class="menu-button">
               <mat-icon>info</mat-icon>
@@ -39,15 +45,15 @@
           <mat-divider></mat-divider>
   
           <button mat-button class="menu-button">
-              <mat-icon>help</mat-icon>
-              <span>Help</span>
+            <mat-icon> local_library</mat-icon>
+              <span>Add New Blog</span>
           </button>
   
      
       </mat-sidenav>
       <mat-sidenav-content>
           <div class="content mat-elevation-z8">
-             
+             <router-outlet></router-outlet>
           </div>
       </mat-sidenav-content>
   </mat-sidenav-container>

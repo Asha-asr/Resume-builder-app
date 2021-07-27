@@ -9,7 +9,6 @@
       margin: 0 -1rem;
       font-size: 36px;
     }
-
     &__content {
       min-height: calc(100vh - 160px);
       border-radius: 10px;

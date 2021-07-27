@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
-import { AppComponent } from './app.component';
 import { BlogcreationComponent } from './blogcreation/blogcreation.component';
 import { HomeComponent } from './home/home.component';
 import { MailboxComponent } from './mailbox/mailbox.component';
